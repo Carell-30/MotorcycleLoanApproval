@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MotorcycleLoanPredictionApp</string>
+    <string name="applicant_income">Applicant Income</string>
+    <string name="hint_applicant_income">Enter Applicant Income</string>
+
+    <!-- Credit Score -->
+    <string name="credit_score">Credit Score</string>
+    <string name="hint_credit_score">Enter Credit Score</string>
+
+    <!-- Loan Amount -->
+    <string name="loan_amount">Loan Amount</string>
+    <string name="hint_loan_amount">Enter Loan Amount</string>
+
+    <!-- Loan Term -->
+    <string name="loan_term">Loan Term (Months)</string>
+    <string name="hint_loan_term">Enter Loan Term (in months)</string>
+
+    <!-- Button Text -->
+    <string name="predict_loan_approval">Predict Loan Approval</string>
+
+    <!-- Loan Prediction Result -->
+    <string name="loan_status_pending">Loan Status: Pending</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Applicant Income -->
+    <TextView
+        android:id="@+id/tvApplicantIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/applicant_income"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etApplicantIncome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_applicant_income"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Credit Score -->
+    <TextView
+        android:id="@+id/tvCreditScore"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/credit_score"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etCreditScore"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:hint="@string/hint_credit_score"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Loan Amount -->
+    <TextView
+        android:id="@+id/tvLoanAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/loan_amount"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etLoanAmount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_loan_amount"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Loan Term -->
+    <TextView
+        android:id="@+id/tvLoanTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/loan_term"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etLoanTerm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:hint="@string/hint_loan_term"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnPredict"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/predict_loan_approval"
+        android:layout_marginTop="16dp" />
+
+    <!-- Prediction Result -->
+    <TextView
+        android:id="@+id/tvLoanPredictionResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_status_pending"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+</LinearLayout>
